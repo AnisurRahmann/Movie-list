@@ -20,4 +20,4 @@
 
 # Areas of improvements
 1. Making ui responsive will be great improvements. In that case we can use any ui library.
-2. Now we cant delete or edit any movies on the DB. Adding this functionality will be so intuitive. As well as removing favorite movie once added for particular user.
+2. Now we can not delete or edit any movie after adding. Implementing those functionalities will be so intuitive. As well as removing favorite movies once added for particular user.
