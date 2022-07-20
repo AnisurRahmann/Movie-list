@@ -66,6 +66,7 @@ const Registration = () => {
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="form-group">
             <input
+              placeholder="Name"
               className="form-control"
               {...register("name", {
                 required: "Name is required",
@@ -78,6 +79,7 @@ const Registration = () => {
             />
             <p className="form-error">{errors.name && errors.name.message}</p>
             <input
+              placeholder="Email"
               className="form-control"
               {...register("email", {
                 required: "Email is required",
@@ -90,6 +92,7 @@ const Registration = () => {
             />
             <p className="form-error">{errors.email && errors.email.message}</p>
             <input
+              placeholder="Password"
               type="password"
               className="form-control"
               {...register("password", {
@@ -110,6 +113,7 @@ const Registration = () => {
               {errors.password && errors.password.message}
             </p>
             <input
+              placeholder="Confirm Passowrd"
               type="password"
               className="form-control"
               {...register("confirmPassword", {
