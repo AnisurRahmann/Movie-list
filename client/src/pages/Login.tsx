@@ -65,6 +65,7 @@ const Login = () => {
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="form-group">
             <input
+              placeholder="Email"
               className="form-control"
               {...register("email", {
                 required: "Email is required",
@@ -77,6 +78,7 @@ const Login = () => {
             />
             <p className="form-error">{errors.email && errors.email.message}</p>
             <input
+              placeholder="Password"
               type="password"
               className="form-control"
               {...register("password", {
